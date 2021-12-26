@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="399.0" prefWidth="461.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPublisher.EDTitleController">
+   <children>
+      <Button fx:id="btnSave" layoutX="253.0" layoutY="302.0" mnemonicParsing="false" onAction="#Save" text="Save" />
+      <Button fx:id="btnCancel" layoutX="361.0" layoutY="302.0" mnemonicParsing="false" onAction="#Cancel" text="Cancel" />
+      <Label layoutX="188.0" layoutY="56.0" text="Edit/Delete Title" />
+      <Label layoutX="122.0" layoutY="173.0" text="Title ID" />
+      <Label layoutX="125.0" layoutY="210.0" text="Name" />
+      <TextField fx:id="txtID" layoutX="168.0" layoutY="169.0" />
+      <TextField fx:id="txtName" layoutX="168.0" layoutY="206.0" />
+      <ComboBox fx:id="cbTitle" layoutX="167.0" layoutY="127.0" onAction="#update" prefWidth="150.0" />
+      <Label layoutX="130.0" layoutY="131.0" text="Title" />
+      <Button fx:id="btnDelete" layoutX="302.0" layoutY="302.0" mnemonicParsing="false" onAction="#Delete" text="Delete" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="399.0" prefWidth="512.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPublisher.EDAuthorController">
+   <children>
+      <Button fx:id="btnSave" layoutX="278.0" layoutY="304.0" mnemonicParsing="false" onAction="#Save" text="Save" />
+      <Button fx:id="btnCancel" layoutX="393.0" layoutY="304.0" mnemonicParsing="false" onAction="#Cancel" text="Cancel" />
+      <TextField fx:id="txtID" layoutX="197.0" layoutY="134.0" />
+      <TextField fx:id="txtName" layoutX="196.0" layoutY="175.0" />
+      <TextField fx:id="txtEmail" layoutX="196.0" layoutY="214.0" />
+      <Label layoutX="125.0" layoutY="138.0" text="Author ID" />
+      <Label layoutX="145.0" layoutY="179.0" text="Name" />
+      <Label layoutX="102.0" layoutY="218.0" text="Email Address" />
+      <Label layoutX="207.0" layoutY="36.0" text="Edit/Delete Author" />
+      <ComboBox fx:id="cbAuthor" layoutX="197.0" layoutY="97.0" onAction="#update" prefWidth="150.0" />
+      <Label layoutX="143.0" layoutY="101.0" text="Author" />
+      <Button fx:id="btnDelete" layoutX="330.0" layoutY="304.0" mnemonicParsing="false" onAction="#Delete" text="Delete" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="414.0" prefWidth="509.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPublisher.AddAuthorController">
+   <children>
+      <Label layoutX="241.0" layoutY="41.0" text="Add Author" />
+      <Label layoutX="136.0" layoutY="150.0" text="Name" />
+      <Label layoutX="98.0" layoutY="188.0" text="Email Address" />
+      <Label layoutX="93.0" layoutY="230.0" text="Publisher Unit" />
+      <Button fx:id="btnSave" layoutX="335.0" layoutY="312.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <Button fx:id="btnCancel" layoutX="406.0" layoutY="312.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+      <TextField fx:id="txtName" layoutX="197.0" layoutY="146.0" />
+      <TextField fx:id="txtEmail" layoutX="197.0" layoutY="185.0" />
+      <ComboBox fx:id="cbPublisherUnit" layoutX="197.0" layoutY="226.0" prefWidth="150.0" />
+      <TextField fx:id="txtID" layoutX="197.0" layoutY="106.0" />
+      <Label layoutX="116.0" layoutY="110.0" text="Author ID" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="423.0" prefWidth="528.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPublisher.AddPublisherUnitController">
+   <children>
+      <Label layoutX="214.0" layoutY="47.0" text="Add Publisher Unit" />
+      <TextField fx:id="txtID" layoutX="205.0" layoutY="136.0" />
+      <TextField fx:id="txtName" layoutX="205.0" layoutY="174.0" />
+      <Label layoutX="151.0" layoutY="178.0" text="Name" />
+      <Label layoutX="146.0" layoutY="216.0" text="Address" />
+      <Button fx:id="btnSave" layoutX="333.0" layoutY="327.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <Button fx:id="btnCancel" layoutX="407.0" layoutY="327.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+      <Label layoutX="101.0" layoutY="140.0" text="Publisher Unit ID" />
+      <TextField fx:id="txtAddress" layoutX="205.0" layoutY="212.0" />
+   </children>
+</AnchorPane>
